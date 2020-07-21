@@ -16,4 +16,3 @@ param
 h5py
 tqdm
 glob3
-pickle
