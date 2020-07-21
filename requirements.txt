@@ -1,0 +1,16 @@
+panel
+hvplot
+scikit-learn
+jupyter
+numpy 
+pandas
+bokeh
+xarray
+matplotlib
+sciplotlib
+networkx
+datashader
+holoviews
+scipy
+param
+h5py
