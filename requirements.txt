@@ -15,3 +15,5 @@ scipy
 param
 h5py
 tqdm
+glob
+pickle
