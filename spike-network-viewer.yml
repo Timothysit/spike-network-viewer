@@ -153,7 +153,6 @@ dependencies:
   - sip=4.19.8=py37hf484d3e_1000
   - six=1.14.0=py_1
   - sortedcontainers=2.1.0=py_0
-  - spyking-circus=0.9.7=py37_0
   - sqlite=3.31.1=h62c20be_1
   - statsmodels=0.11.1=py37h8f50634_1
   - tblib=1.6.0=py_0
