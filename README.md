@@ -6,6 +6,29 @@
 This is a (work in progress) dashboard for visualising the network properties of neural activity from spikes. 
 Note that currently the spatial structure of the network is assumed to be that of the [MultiChannels 60MEA system (8 x 8 layout)](https://www.multichannelsystems.com/products/meas-60-electrodes)
 
+## Installation Instructions 
+
+### Step 1: Clone the repository
+
+ - option A: (go to a suitable direcotry, such as home), and run `git clone https://github.com/Timothysit/spike-network-viewer` 
+ - option B: click on the green `Code` button, then do `Download ZIP`, then unpack the contents
+
+### Step 2: Set up python environment 
+
+1. If you use anaconda, change to the folder containing the repository contents (`cd spike-network-viewer`) and create a new environment using `conda env create --name spike-network-viewer --file=spike-network-viewer.yml`
+   - feel free to replace 'spike-network-viewer' with your preferred name of the environment
+2. Install the required packages by running: `pip install -r requirements.txt`
+
+   
+
+### Step 3: Run command line argument to launch viewer 
+
+1. Change to the directory containing the cloned repoistory, eg. `cd spike-network-viewer`, then do: 
+2. Activate your python environment, eg. `conda activate spike-network-viewer` if you use anaconda as your python package manager 
+3. Launch the viewer: `panel serve --show spike-network-viewer.ipynb`
+
+
+
 
 ## File format requirements
 
