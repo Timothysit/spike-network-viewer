@@ -39,6 +39,13 @@ The current supported file format is limited to:
 
 An example file can be found in the `example-files` folder. 
 
+### Converting .mat files to .pkl files 
+
+Go to the spike-network-viewer folder, and run: 
+
+`python file_conversion.py --mat-folder '/folder/to/your/mat-file/'`
+
+
 ### Pickle file structure 
 
 For pickle files, the content should be a dictionary with the following structure: 
