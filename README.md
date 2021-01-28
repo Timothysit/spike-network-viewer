@@ -54,6 +54,16 @@ For pickle files, the content should be a dictionary with the following structur
    - `electrode`: electrode id (int or float)
 
 
+## Modifying the viewer
+
+The viewer is contained in the file `spike-network-viewer.ipynb`, which can be opened using:
+
+ 1. jupyter notebook, in which case run: `python -m jupyter notebook` 
+ 2. jupyter lab, in which case run: `python -m jupyter lab`
+ 
+then open the notebook, which allows you modify the behaviour or add/subtract functionalities to the viewer.
+
+
 ## Contributing 
 
 Feel free to post issues if you have trouble running the app or have feature suggestions!
